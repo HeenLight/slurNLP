@@ -1,0 +1,25 @@
+{
+  "name": "slurnlp",
+  "version": "1.0.0",
+  "description": "NLP bot for Discord servers, that tracks slurs using NLP and Slur words database for moderating.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NLP",
+    "Discord",
+    "Discord.JS",
+    "AI",
+    "ML"
+  ],
+  "author": "HeenLight",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs-node": "^4.3.0",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3"
+  }
+}

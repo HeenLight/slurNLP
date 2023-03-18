@@ -1,0 +1,62 @@
+[
+  {
+    "label": "identity_attack",
+    "results": [
+      {
+        "probabilities": {
+          "0": 0.9678097367286682,
+          "1": 0.03219028562307358
+        },
+        "match": false
+      }
+    ]
+  },
+  {
+    "label": "insult",
+    "results": [
+      {
+        "probabilities": {
+          "0": 0.05262534320354462,
+          "1": 0.9473745822906494
+        },
+        "match": true
+      }
+    ]
+  },
+  {
+    "label": "obscene",
+    "results": [
+      {
+        "probabilities": {
+          "0": 0.4018285274505615,
+          "1": 0.5981714725494385
+        },
+        "match": null
+      }
+    ]
+  },
+  {
+    "label": "severe_toxicity",
+    "results": [
+      {
+        "probabilities": {
+          "0": 0.9982395172119141,
+          "1": 0.001760530169121921
+        },
+        "match": false
+      }
+    ]
+  },
+  {
+    "label": "toxicity",
+    "results": [
+      {
+        "probabilities": {
+          "0": 0.02452418953180313,
+          "1": 0.9754757881164551
+        },
+        "match": true
+      }
+    ]
+  }
+]
